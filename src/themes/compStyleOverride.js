@@ -182,6 +182,13 @@ export default function componentStyleOverrides(theme) {
                     background: theme.colors?.grey700
                 }
             }
+        },
+        MuiTypography: {
+            styleOverrides: {
+                root: {
+                    wordWrap: 'anywhere'
+                }
+            }
         }
     };
 }

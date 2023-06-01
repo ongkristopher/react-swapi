@@ -23,14 +23,16 @@ const DetailTable = ({ details, isWookiee }) => {
         <table
             style={{
                 marginLeft: 'auto',
-                marginRight: 'auto'
+                marginRight: 'auto',
+                wordWrap: 'anywhere',
+                borderSpacing: '0px'
             }}
         >
             <tbody>
                 {arrayDetails.map((data) => (
                     <tr key={data.value}>
-                        <td style={{ fontWeight: 'bold' }}>{data.key}</td>
-                        <td style={{ textAlign: 'right' }}>{data.value}</td>
+                        <td style={{ fontWeight: 'bold', borderBottom: '1px solid #ddd', padding: '5px' }}>{data.key}</td>
+                        <td style={{ textAlign: 'right', borderBottom: '1px solid #ddd', padding: '5px' }}>{data.value}</td>
                     </tr>
                 ))}
             </tbody>
