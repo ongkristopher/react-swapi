@@ -1,6 +1,6 @@
 {
     "scope": "/",
-    "start_url": "http://localhost:3000/",
+    "start_url": "https://ongkristopher-react-swapi.vercel.app/",
     "name": "Star Wars API UI - React",
     "short_name": "SWAPI React",
     "icons": [
