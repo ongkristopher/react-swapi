@@ -6,7 +6,7 @@ const config = {
     fontFamily: `'Poppins', sans-serif`,
     borderRadius: 12,
     theme: 'dark',
-    url: 'https://swapi.dev/api/',
+    url: 'https://swapi.info/api/',
     debounceTime: 1000
 };
 
